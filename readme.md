@@ -9,3 +9,25 @@ I implemented charts using Recharts to visualize app reviews on the details page
 Installed apps are saved in localStorage, and the “My Installation” page allows uninstalling apps with a toast notification.
 I added loading animations for page navigation and search operations, and created a custom error page for invalid routes.
 Finally, I deployed the project to Vercel ensuring all routes work without errors.
+
+
+**Technologies Used**
+React.js (Vite) — Frontend framework
+React Router v6 — Navigation and routing
+Tailwind CSS — Styling and responsiveness
+Recharts — Visualization for app ratings
+localStorage API — Persistent storage for installation data
+SweetAlert2 / react-toastify — Toast messages for feedback
+
+**Production Checklist**
+ Responsive for all devices
+ Live search working
+ App not found message visible (DataFound)
+ LocalStorage install/uninstall functional
+ Sorting dropdown implemented
+ Toast and Loader integrated
+ No errors on page reload
+ Deployed successfully
+ At least 5+ commits done
+
+ 

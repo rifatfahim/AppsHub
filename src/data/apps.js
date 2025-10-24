@@ -313,7 +313,10 @@ Whether you are a beginner or an experienced meditator, Calm provides the tools 
     title: "TaskMaster: ToDo Organizer",
     companyName: "ProductiveTech",
     id: 15,
-    description: `TaskMaster simplifies your day by letting you organize tasks with reminders, priority levels, and recurring events. Its intuitive interface and daily summaries ensure nothing gets forgotten.`,
+    description: `TaskMaster simplifies your day by letting you organize tasks 
+    with reminders, 
+    priority levels, and recurring events. Its intuitive interface and daily 
+    summaries ensure nothing gets forgotten.`,
     size: 200,
     reviews: 75000,
     ratingAvg: 4.8,
@@ -331,7 +334,10 @@ Whether you are a beginner or an experienced meditator, Calm provides the tools 
     title: "ZenFocus: Mindful Productivity",
     companyName: "Zen Labs",
     id: 1,
-    description: `ZenFocus helps you stay mindful and productive by using meditation-inspired focus sessions. You set a timer, and the app encourages deep concentration with calming sounds and visual cues. Track your sessions and analyze your progress over time.`,
+    description: `ZenFocus helps you stay mindful and productive by using 
+    meditation-inspired focus sessions. You set a timer, and the app encourages 
+    deep concentration with calming sounds and visual cues. Track your sessions 
+    and analyze your progress over time.`,
     size: 120,
     reviews: 450000,
     ratingAvg: 4.7,
