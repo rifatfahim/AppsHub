@@ -5,7 +5,7 @@ import myLogo from '../assets/logo.png';
 import { FaGithub } from 'react-icons/fa'; 
 
 const Header = () => {
-  const githubLink = "https://github.com/rifatfahim/Hero_Apps"; 
+  const githubLink = "https://github.com/rifatfahim/AppsHub"; 
 
   return (
     <header className="header-container">

@@ -1,0 +1,131 @@
+.footer-main {
+    background-color: #001931; 
+    color: #FAFAFA; 
+    width: 100%;
+    box-sizing: border-box;
+     padding: 30px 70px 10px 70px; 
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    margin: 0 auto; 
+    border-bottom: 1px solid #cfc7c7; 
+}
+
+.footer-logo-link {
+    text-decoration: none;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.logo-image {
+    height: 40px; 
+    width: auto;
+    margin-right: 8px; 
+}
+
+.logo-text {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.footer-social-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.social-links-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px; 
+}
+
+.social-icon-link {
+    color: #FAFAFA; 
+    font-size: 16px; 
+    transition: color 0.3s;
+}
+
+.social-icon-link:hover {
+    color: #632EE3; 
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-main {
+        padding: 25px 40px 15px 40px;
+    }
+    .logo-text,
+    .social-links-title {
+        font-size: 15px;
+    }
+    .social-icon-link {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        border-bottom: none;
+    }
+    .footer-logo-link {
+        margin-bottom: 15px;
+    }
+    .footer-social-section {
+        align-items: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer-main {
+        padding: 20px 20px 10px 20px;
+    }
+    .logo-image {
+        height: 30px;
+        margin-right: 5px;
+    }
+    .logo-text,
+    .social-links-title,
+    .social-icon-link {
+        font-size: 14px;
+    }
+    .social-icons {
+        gap: 12px;
+    }
+}
+
+@media screen and (max-width: 280px) {
+    .footer-main {
+        padding: 15px 10px 8px 10px;
+    }
+    .footer-copyright {
+        font-size: 12px;
+    }
+    .logo-image {
+        height: 25px;
+        margin-right: 4px;
+    }
+}
