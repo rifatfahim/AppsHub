@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { APP_DATA } from '../data/apps';
-import Loader from '../components/Loader';
+import { APP_DATA } from '../data/apps.js';
+import Loader from '../components/Loader.jsx';
 import './AppDetails.css';
 
 // --- HELPER FUNCTIONS ---
