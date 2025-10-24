@@ -1,15 +1,24 @@
 // App.jsx
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header'; 
-import Footer from './components/Footer'; 
+import Header from './components/Header';
+
+import Footer from './components/Footer';
+
 import HeroSection from './components/HeroSection'; 
+
 import TrendingApps from './components/TrendingApps'; 
+
 import AllApps from './components/AllApps'; 
+
 import AppDetails from './components/AppDetails'; 
+
 import AppNotFound from './components/AppNotFound'; 
+
 import MyInstallation from './components/MyInstallation';
+
 import PageNotFound from './components/PageNotFound';
+
 import './App.css'; 
 
 const Home = () => (

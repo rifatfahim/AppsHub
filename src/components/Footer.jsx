@@ -13,7 +13,7 @@ const Footer = () => {
           <Link to="/" className="footer-logo-link">
             <div className="logo-container">
               <img src={myLogo} alt="MERO.IO Logo" className="logo-image" />
-              <span className="logo-text">MERO.IO</span>
+              <span className="logo-text">HERO.IO</span>
             </div>
           </Link>
         </div>
