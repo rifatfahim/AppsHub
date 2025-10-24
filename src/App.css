@@ -1,0 +1,14 @@
+#root {
+  padding: 0;
+  text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.page-content {
+    padding: 20px;
+    max-width: 1200px; 
+}
